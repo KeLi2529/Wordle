@@ -1,0 +1,18 @@
+button{
+    background-color: lightpink;
+    height: 25px;
+    width: 135px;
+    align-self: center;
+    margin: 5px;
+}
+
+input{
+    margin: 5px;
+    background-color: aliceblue;
+    border-color: lightsteelblue;
+}
+
+body{
+    text-align: center;
+    background-color: floralwhite;
+}
