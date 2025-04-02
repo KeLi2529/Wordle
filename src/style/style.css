@@ -14,5 +14,6 @@ input{
 
 body{
     text-align: center;
-    background-color: floralwhite;
+    background-image: url("pic/background.jpg");
+    background-position: center;
 }
