@@ -159,7 +159,8 @@ function ValidateWord(myWord)
     else if(numGuesses == 6)
     {
         alert("You lose! Click the restart button to try again!");
-        location.reload();
+        var showAnswer = document.getElementById("answer");
+        showAnswer.innerHTML = `<p> The answer is ${wordCopy} </p>`;
     }
 }
 
@@ -211,7 +212,7 @@ function CheckCharPosition(myWord)
         }
     }
 
-    console.log(letterCount);
+    // console.log(letterCount);
     // Did a little bit of research here! References: https://youtu.be/ckjRsPaWHX8?si=AyVebmlMxKzUQKSw
     // I borrowed the idea, but didn't completely copy paste
 }
