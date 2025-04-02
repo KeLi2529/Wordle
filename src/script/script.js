@@ -234,7 +234,7 @@ function CheckWord()
         myWord += divChildren[i].value;
     }
 
-    var url = "http://api.dictionaryapi.dev/api/v2/entries/en/" + myWord;
+    var url = "https://api.dictionaryapi.dev/api/v2/entries/en/" + myWord;
     
     var message = document.getElementById("message");
 
