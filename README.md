@@ -1,7 +1,7 @@
 Wordle
 Thanks for reading this! It's just a small wordle game I wrote. 
 ********************************************************************************************************************************************************************************
-Rules of Wordle: 
+Rules of Wordle: \n
 You have 6 chances to guess a five-letter word. 
 After each time you submit your word, you will be given a feedback based on the background color of each letter: 
     · Green means the letter is in the word and in the right position;
