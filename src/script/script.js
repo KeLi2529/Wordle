@@ -11,9 +11,9 @@ function APICall()
         return response.json();
     })
     .then(data => {
-        console.log('Data:', data);
+        //console.log('Data:', data);
         wordCopy = data.toString();
-        console.log(wordCopy); // Cheating! 
+        //console.log(wordCopy); // Cheating! 
     })
     .catch(error => {
         console.error('Error fetching data:', error);
