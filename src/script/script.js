@@ -212,7 +212,7 @@ function CheckCharPosition(myWord)
         }
     }
 
-    // console.log(letterCount);
+    console.log(letterCount);
     // Did a little bit of research here! References: https://youtu.be/ckjRsPaWHX8?si=AyVebmlMxKzUQKSw
     // I borrowed the idea, but didn't completely copy paste
 }
