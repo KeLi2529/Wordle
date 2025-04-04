@@ -16,4 +16,10 @@ body{
     text-align: center;
     background-image: url("pic/background.jpg");
     background-position: center;
+    font-family: 'BigSpace', sans-serif;
+}
+
+@font-face {
+    src: url('font/BigSpace-rPKx.ttf'), format('truetype');
+    font-family: 'BigSpace';
 }
