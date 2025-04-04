@@ -198,7 +198,7 @@ function CheckCharPosition(myWord)
 
         if(myWord[i] === wordCopy[i])
         {
-            divChildren[i].style.backgroundColor = "green";
+            divChildren[i].style.backgroundColor = "#90EE90";
             letterCount[myWord[i]]--;
         }
     }
@@ -206,7 +206,7 @@ function CheckCharPosition(myWord)
     // Then loop a second time to get those letters which are in the word but in the wrong position
     for(var i = 0; i < myWord.length; i++)
     {
-        if(divChildren[i].style.backgroundColor != "lime" && letterCount[myWord[i]] > 0)
+        if(divChildren[i].style.backgroundColor != "#90EE90" && letterCount[myWord[i]] > 0)
         {
             divChildren[i].style.backgroundColor = "#F8DE7E";
             letterCount[myWord[i]]--;
