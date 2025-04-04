@@ -20,8 +20,19 @@ body{
     text-align: center;
     background-image: url("pic/background.jpg");
     background-position: center;
+    background-size: cover;
+}
+
+h2{
     font-family: 'BigSpace', sans-serif;
-    font-size: xx-large;
+    font-size: 42px;
+    margin: 20px;
+}
+
+p{
+    font-family: 'BigSpace', sans-serif;
+    font-size: 27.5px;
+    margin: 5px auto;
 }
 
 @font-face {
