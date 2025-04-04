@@ -44,6 +44,7 @@ function GenerateWordle()
             rowArray.push(input);
             input.type = "text";
             input.style.width = "1.5ch";
+            input.style.height = "1.5ch";
             input.maxLength = 1;
             // 1) auto focus to next input when a letter is added
             // 2) only allow letters
@@ -197,7 +198,7 @@ function CheckCharPosition(myWord)
 
         if(myWord[i] === wordCopy[i])
         {
-            divChildren[i].style.backgroundColor = "lime";
+            divChildren[i].style.backgroundColor = "green";
             letterCount[myWord[i]]--;
         }
     }
@@ -207,7 +208,7 @@ function CheckCharPosition(myWord)
     {
         if(divChildren[i].style.backgroundColor != "lime" && letterCount[myWord[i]] > 0)
         {
-            divChildren[i].style.backgroundColor = "yellow";
+            divChildren[i].style.backgroundColor = "#F8DE7E";
             letterCount[myWord[i]]--;
         }
     }
